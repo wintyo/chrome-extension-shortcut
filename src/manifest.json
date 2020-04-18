@@ -1,6 +1,6 @@
 {
   "name": "ショートカットキー",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "manifest_version": 2,
   "description": "",
   "content_scripts": [
@@ -10,7 +10,9 @@
     }
   ],
   "permissions": [
-    "storage"
+    "storage",
+    "http://*/*",
+    "https://*/*"
   ],
   "options_ui": {
     "page": "options.html",
